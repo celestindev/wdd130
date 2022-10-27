@@ -1,65 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Rock+Salt&display=swap');
 
-
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-nav a{
-    text-align: center;
-    text-decoration: none;
-
-}
-
-#hero-msg h1, #hero-msg h4{
-    text-align: center;
-
-}
-
-.button-box{
-    text-align: center;
-
-}
-
-main section{
-    text-align: center;
-
-}
-
-
-#background {
-    height: 725px;
-}
-
-
 body{
     background-color:#DAD7FF;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 22px;
     margin: 0;
-    padding: 0;
-    /* font-family: 'Cormorant Garamond'; */
-
+    padding: 0
 }
 
-h2{
-    margin: 0;
-    
+#content{
+    background-color:#DAD7FF;
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    line-height: 12px;
+    font-family:  'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 12px;
+}
+
+nav{
+    background-color: #CB578A;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: .75em;
+    line-height: 1em;
+    font-family:  'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 1em;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width:80px;
+    height:auto;
+    position: relative;
+} 
 
 header{
-    background-color:#CB578A;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #CB578A;
 }
 
-nav a:hover{
-    background-color:#825455;
+img {
+    max-width: 100%;
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
+main, section {
+    text-align:  center;
+}
+
+.home-title {
+    font-size: 2.25em; color: #E8F1F2;
+}
+
+
+#hero-img {
+    width: 100%;
+}
+    
+#hero-msg {
+    text-align: center;
+}
+
+.join, .book{
+    color:#3A5A65;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+.card-img{
+    width: 40%;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+    .icon{
+        width: 80px;
+     }
+     .rivers-card, .camping-card, .rapids-card{
+        margin: 200px 0;
+    }
+
+     #background{
+        height: 750px;
+        background-color: white;
+     }
+     .mountains{
+        width:100%;
+     }
+     .msg{
+        background-color: white;
+        padding: 55px;
+     }
+
+     #info{
+        font-size .75em;
+        color:white;
+}
+
+main section img {
+    box-sizing: border-box;
+} 
 
 .book, .join{
-    background-color:#3A5A65;
+    background-color:hsl(0, 0%, 100%);
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
@@ -75,6 +141,7 @@ nav a:hover{
 
 #background{
     background-color:#3A5A65;
+    
 }
 
 .msg{
@@ -87,14 +154,6 @@ footer{
     background-color:#CB578A;
 }
 
-nav a{
-    color: black;
-    padding: 35px;
-}
-
-nav a:hover{
-    color: #f0f2f3;
-}
 
 .home-title{
     color: rgb(0, 0, 0);
@@ -103,28 +162,23 @@ nav a:hover{
     margin-top: 10px;
 }
 
-h4{
-    color:rgb(0, 0, 0);
-}
 
-
-.book:hover, .join:hover{
-    color:rgb(165, 0, 0);
-}
-
-.msg h2{
-    color:rgb(0, 5, 5);
-}
 
 .msg p{
-    color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
-footer h3{
-    color: rgb(0, 0, 0);
+
+footer { 
+    background-color: #825455;
+    padding: 25px 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a{
@@ -143,10 +197,6 @@ footer a:hover{
 }
 
 
-.logo {
-    width: 80px;
-}
-
 footer p {
     font-size: 1.2em;
 }   
@@ -161,20 +211,4 @@ footer .social img{
 
 footer p a:hover {
     text-decoration: underline;
-}
-
-#logo_link{
-    padding-top: 5px;
-}
-
-.rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
-}
-
-.card-img{
-    border: 10px solid black;
-}
-
-main section img {
-    box-sizing: border-box;
 }
