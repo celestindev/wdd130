@@ -1,0 +1,74 @@
+h1, p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-2 > img{
+    width: 540px;
+    height: auto;
+    border-radius: 28px;
+}
+
+.section-3 > img{
+    width: 540px;
+    height: auto;
+    border-radius: 28px;
+}
+
+
+.section-4 > img{
+    width: 540px;
+    height: auto;
+    border-radius: 28px;
+}
+
+
+.section-2{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.section-2 > p{
+  margin: 10px;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 50px 50px;
+}
+
+.section-3{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.section-3 > p{
+  margin: 10px;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 50px 50px;
+}
+
+
+
+.section-4{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.section-4 > p{
+  margin: 10px;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 50px 50px;
+}
