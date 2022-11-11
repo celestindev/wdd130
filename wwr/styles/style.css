@@ -370,3 +370,24 @@ footer .social img {
         background-color: #825455;
     }
 }
+.heading-contact{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Rock Salt', sans-serif;
+
+}
+.my-form{
+    margin: 200px;
+    padding: 50px;
+    border-style: solid;
+    background-color: #40aeb6;
+}
+
+#button-form{
+    background-color: #000000;
+    color: white;
+    font-size: 22px;
+    width: 150px;
+    height: auto;
+    border-radius: 18px;
+}
