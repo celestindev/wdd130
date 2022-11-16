@@ -11,7 +11,10 @@ h1, p{
     justify-items: inherit;
     justify-content: center;
 }
-
+.section-1 h1{
+  font-size: 36px;
+  padding-top: 40px;
+}
 .section-2 div{
     justify-content: center;
 }
@@ -48,3 +51,4 @@ h1, p{
     color: white;
     font-size: 20px;
   }
+

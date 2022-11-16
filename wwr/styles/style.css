@@ -321,7 +321,12 @@ footer .social img {
     width: 80px;
     padding-top: 10px;
 }
-
+.my-form > img{
+    margin-left: 120px;
+    border-radius: 26px;
+    width: 720px;
+    height: auto;
+  }
 
 /* Media query */
 
