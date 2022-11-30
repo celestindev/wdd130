@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <title>Media-Card</title>
+   <meta charset="utf-8">
+  <style>
+  
+    body{
+      background-color: rgb(63, 53, 63);
+    }
+    
+    img {
+   max-width: 100%;
+}
+
+.card {
+   width: 320px;
+   box-shadow: 1px 1px 4px 1px #888;
+   border-radius: 3px 0 0 3px;
+   background-color: #ccc;
+   overflow: hidden;
+   padding: 15px;
+}
+
+#buttonSpan {  
+   display: flex;
+   width: 320px;
+   flex-direction: row;
+   justify-content: space-between;
+/*      background-color: #888; */
+   background-color: #ccc;
+
+}
+    
+    .viewBotton {
+     margin-left: 110px; 
+           margin-right: 110px; 
+
+    }
+  </style>
+</head>
+
+<body>
+   <header>
+      <h1>Media Card</h1>
+   </header>
+
+   <article class="card">
+      <img src="https://picsum.photos/320/240" alt="card-image-random">
+      <p> This is a wider card with supporting text below as a natural lead in to additional content. This content is
+         a little bit longer.</p>
+      <footer>
+         <div id="buttonSpan">
+            <div>
+               <button class="viewButton">View</button>
+               <button class="editButton">Edit</button>
+            </div>
+            <span>9 mins</span>
+         </div>
+      </footer>
+   </article>
+
+</body>
+
+</html>
